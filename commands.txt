@@ -1,0 +1,500 @@
+   84  docker push squiz_app
+   85  docker login -u mrixon95 -p Stephen22968
+   86  docker push squiz_app
+   87  sudo docker push squiz_app
+   88  docker tag squiz_app mrixon95/dockerhub:firstimagepush
+   89  docker images --filter reference=hello-world\\\
+   90  docker push mrixon95/dockerhub:firstimagepush
+   91  ls
+   92  docker images ls
+   93  docker image ls
+   94  aws ecr create-repository --repository-name hello-repository --region region
+   95  docker imagse
+   96  docker images
+   97  docker ps -a
+   98  ls
+   99  python app.py
+  100  docker run -d -p 5000:5000 --name squiz_local_app squiz_app:latest
+  101  docker ps -a
+  102  telnet localhost 5000
+  103  docker exec -it squiz_local_app bash
+  104  docker exec -it squiz_local_app sh
+  105  docker exec -it squiz_local_app /bin/bash
+  106  docker ps -a
+  107  docker ps
+  108  ls
+  109  vi app.py 
+  110  aws --version
+  111  aws ecr get-login-password --region us-east-2 | docker login --username AWS --password-stdin 229541664422.dkr.ecr.us-east-2.amazonaws.com
+  112  ls
+  113  docker build -t assignment3 .
+  114  \docker images
+  115  docker tag assignment3:latest 229541664422.dkr.ecr.us-east-2.amazonaws.com/assignment3:latest
+  116  docker push 229541664422.dkr.ecr.us-east-2.amazonaws.com/assignment3:latest
+  117    
+  118  docker push 229541664422.dkr.ecr.us-east-2.amazonaws.com/assignment3:latest
+  119  docker ps
+  120  docker exec -it squiz_local_app bash
+  121  docker exec -iT squiz_local_app bash
+  122  winpty docker exec -it squiz_local_app bash
+  123  curl http://localhost:500
+  124  curl http://localhost:5005
+  125  curl http://localhost:5000
+  126  ls
+  127  vi app.py
+  128  docker build -t assignment3 .
+  129  docker ps
+  130  docker stop squiz_local_app 
+  131  docker rm squiz_local_app 
+  132  docker run -d -p 5000:5000 --name squiz_local_app assignment3:latest
+  133  docker ps
+  134  ls
+  135  cat app.py 
+  136  python app.py
+  137  python app.py
+  138  docker rm squiz_local_app 
+  139  docker stop squiz_local_app 
+  140  docker rm squiz_local_app 
+  141  ls
+  142  docker build -t assignment3 .
+  143  docker image ls
+  144  docker tag assignment3:latest 229541664422.dkr.ecr.us-east-2.amazonaws.com/assignment3:latest
+  145  docker push 229541664422.dkr.ecr.us-east-2.amazonaws.com/assignment3:latest
+  146  sudo service docker start
+  147  apt-get installl curl
+  148  docker run hello-world
+  149  cd ..
+  150  ls
+  151  cd ECSapp2
+  152  ls
+  153  docker build -t my_docker_app:latest .
+  154  docker-machine stop
+  155  docker build -t my_docker_app:latest .
+  156  cd //
+  157  cd -
+  158  cd ..
+  159  ls
+  160  cd ECSapp
+  161  ls
+  162  docker build -t my_docker_app:latest .
+  163  docker build -t my_docker_app2:latest .
+  164  docker container ls
+  165  docker image ls
+  166  docker image rm hello-world
+  167  docker image -rf hello-world
+  168  docker image ls
+  169  docker image rm postgres
+  170  docker rm $(docker ps -a -q)
+  171  docker rmi $(docker images -q)
+  172  ls
+  173  docker image ls
+  174  docker build -t my_docker_app2:latest .
+  175  ls
+  176  ls ./.ssh
+  177  ls ~/.ssh
+  178  ssh -i ~/.ssh/Assignment3CloudComputing.pem ubuntu@18.117.180.163
+  179  ssh -i ~/.ssh/Assignment3CloudComputing.pem ubuntu@18.117.180.163
+  180  nano /etc/ssh/sshd_config
+  181  zip -r Assignment3zip.zip .
+  182  ls
+  183  python application.py
+  184  python application.py
+  185  cd ..
+  186  ls
+  187  ls
+  188  cd ECSapp
+  189  ls
+  190  python app.py
+  191  cd ..
+  192  cd ECSapp2
+  193  ls
+  194  python app.py
+  195  cd ..
+  196  ls
+  197  cd ECSapp
+  198  ssh -i "Assignment3CloudComputingNewKey.pem" ubuntu@ec2-18-118-144-73.us-east-2.compute.amazonaws.com
+  199  python app.py
+  200  ssh -i "Assignment3CloudComputingNewKey.pem" ubuntu@ec2-18-118-144-73.us-east-2.compute.amazonaws.com
+  201  cd /etc/nginx/
+  202  ssh -i "Assignment3CloudComputingNewKey.pem" ubuntu@ec2-18-118-144-73.us-east-2.compute.amazonaws.com
+  203  python app.py
+  204  python application.py 
+  205  python application.py 
+  206  python application.py 
+  207  python application.py 
+  208  python application.py 
+  209  python application.py 
+  210  python application.py 
+  211  python application.py 
+  212  python application.py 
+  213  python application.py 
+  214  python application.py 
+  215  python application.py 
+  216  python application.py 
+  217  python application.py 
+  218  python application.py 
+  219  python application.py 
+  220  python application.py 
+  221  python application.py 
+  222  python application.py 
+  223  python application.py 
+  224  python application.py 
+  225  python application.py 
+  226  python application.py 
+  227  python application.py 
+  228  python application.py 
+  229  python application.py 
+  230  python application.py 
+  231  python application.py 
+  232  python application.py 
+  233  python application.py 
+  234  python application.py 
+  235  python application.py 
+  236  python application.py 
+  237  python application.py 
+  238  python application.py 
+  239  python application.py 
+  240  python application.py 
+  241  python application.py 
+  242  python application.py 
+  243  python application.py 
+  244  python application.py 
+  245  python application.py 
+  246  python application.py 
+  247  python application.py 
+  248  python application.py 
+  249  python application.py 
+  250  python application.py 
+  251  python application.py 
+  252  python application.py 
+  253  python application.py 
+  254  python application.py 
+  255  python application.py 
+  256  python application.py 
+  257  python application.py 
+  258  python application.py 
+  259  python application.py 
+  260  python application.py 
+  261  python application.py 
+  262  python application.py 
+  263  python application.py 
+  264  python application.py 
+  265  python application.py 
+  266  python application.py 
+  267  python application.py 
+  268  python application.py 
+  269  python application.py 
+  270  python application.py 
+  271  python application.py 
+  272  python application.py 
+  273  python application.py 
+  274  python application.py 
+  275  python application.py 
+  276  python application.py 
+  277  python application.py 
+  278  python application.py 
+  279  python application.py 
+  280  python application.py 
+  281  python application.py 
+  282  python application.py 
+  283  python application.py 
+  284  python application.py 
+  285  python application.py 
+  286  python application.py 
+  287  python application.py 
+  288  python application.py 
+  289  python application.py 
+  290  python application.py 
+  291  python application.py 
+  292  python application.py 
+  293  python application.py 
+  294  python application.py 
+  295  python application.py 
+  296  python application.py 
+  297  python application.py 
+  298  python application.py 
+  299  python application.py 
+  300  python application.py 
+  301  python application.py 
+  302  python application.py 
+  303  python application.py 
+  304  python application.py 
+  305  python application.py 
+  306  python application.py 
+  307  python application.py 
+  308  python application.py 
+  309  python application.py 
+  310  python application.py 
+  311  python application.py 
+  312  python application.py 
+  313  python application.py 
+  314  python application.py 
+  315  python application.py 
+  316  python application.py 
+  317  python application.py 
+  318  python application.py 
+  319  python application.py 
+  320  python application.py 
+  321  python application.py 
+  322  python application.py 
+  323  python application.py 
+  324  python application.py 
+  325  python application.py 
+  326  python application.py 
+  327  python application.py 
+  328  python application.py 
+  329  python application.py 
+  330  python application.py 
+  331  python application.py 
+  332  python application.py 
+  333  python application.py 
+  334  python application.py 
+  335  python application.py 
+  336  python application.py 
+  337  python application.py 
+  338  python application.py 
+  339  python application.py 
+  340  python application.py 
+  341  python application.py 
+  342  python application.py 
+  343  python application.py 
+  344  python application.py 
+  345  python application.py 
+  346  python application.py 
+  347  python application.py 
+  348  python application.py 
+  349  python application.py 
+  350  python application.py 
+  351  python application.py 
+  352  python application.py 
+  353  python application.py 
+  354  python application.py 
+  355  python application.py 
+  356  python application.py 
+  357  python application.py 
+  358  python application.py 
+  359  python application.py 
+  360  python application.py 
+  361  python application.py 
+  362  python application.py 
+  363  python application.py 
+  364  python application.py 
+  365  python application.py 
+  366  python application.py 
+  367  python application.py 
+  368  python application.py 
+  369  python application.py
+  370  python application.py
+  371  python application.py
+  372  python application.py
+  373  python application.py
+  374  python application.py
+  375  python application.py
+  376  python application.py
+  377  python application.py
+  378  python application.py
+  379  ls
+  380  zip -r Assignment3realeb.zip Assignment3real
+  381  cd ..
+  382  zip -r Assignment3realeb.zip Assignment3real
+  383  ls
+  384  cd ~
+  385  ls
+  386  cd ..sh
+  387  cd .ssh
+  388  ls
+  389  cd /etc
+  390  cd ssh/
+  391  ls
+  392  vim sshd_config
+  393  sudo systemctl restart sshd
+  394  systemctl restart sshd
+  395  apt-get install sudo
+  396  ls
+  397  python application.py
+  398  python application.py
+  399  zip -r Assignment3Zip.zip .
+  400  zip -r Assignment3Zip.zip .
+  401  ls
+  402  ls
+  403  zip -r Assignment3MainApp.zip .
+  404  python application.py
+  405  python application.py
+  406  python application.py
+  407  python application.py
+  408  python application.py
+  409  zip -r Assignment3MainApp.zip .
+  410  ls
+  411  python application.py 
+  412  ls
+  413  zip -r Assignment3Zip.zip .
+  414  ls
+  415  ls
+  416  rm Assignment3Zip.zip 
+  417  ls
+  418  zip -r Assignment3Zip.zip .
+  419  ls
+  420  ls
+  421  echo "# JavaFX" >> README.md
+  422  git init
+  423  git add README.md
+  424  git add .
+  425  git commit -m "first commit"
+  426  git branch -M main
+  427  git remote add origin https://github.com/mrixon95/JavaFX.git
+  428  git push -u origin main
+  429  git add .
+  430  git commit -m "correct the backslash issue"
+  431  git push
+  432  git add .
+  433  git commit -m "Up to the Hello World program"
+  434  git push
+  435  git add .
+  436  git commit -m "Skinnable interface"
+  437  ssh -i "Assignment3CloudComputingNewKey.pem" ubuntu@ec2-18-118-144-73.us-east-2.compute.amazonaws.com
+  438  ls ~/.ssh
+  439  ls
+  440  git status
+  441  git add .
+  442  git commit -m "Finished Title Pane and on to events"
+  443  git push
+  444  ls
+  445  ssh -i CloudComputingAssignment3.pem 18.188.163.75
+  446  ls
+  447  ls ./.ssh
+  448  ls ~/.ssh
+  449  cp CloudComputingAssignment3.pem ~/.ssh
+  450  ls ~/.ssh
+  451  ssh -i CloudComputingAssignment3.pem 18.188.163.75
+  452  ls
+  453  ssh -i ~/.ssh/CloudComputingAssignment3.pem 18.188.163.75
+  454  cd .ssh
+  455  cd ~/.ssh
+  456  ls
+  457  chmod 700 CloudComputingAssignment3.pem 
+  458  ssh -i ~/.ssh/CloudComputingAssignment3.pem 18.188.163.75
+  459  ssh -i ~/.ssh/CloudComputingAssignment3.pem 18.188.163.75
+  460  ls
+  461  sudo
+  462  apt-get install sudo -y
+  463  ls
+  464  sudo
+  465  curl -s https://raw.githubusercontent.com/imachug/win-sudo/master/install.sh | sh
+  466  sudo pip install gevent
+  467  which git
+  468  node
+  469  sudo
+  470  choco install gsudo
+  471  git --version
+  472  python3 app.py
+  473  python app.py
+  474  python app.py
+  475  pip install Flask
+  476  sudo
+  477  sudo apt-get update
+  478  sudo apt-get install python3
+  479  ls
+  480  cd .ssh
+  481  ls
+  482  sudo chmod 700 CloudComputingAssignment3.pem 
+  483  chmod 700 CloudComputingAssignment3.pem 
+  484  ls
+  485  ls -a
+  486  ls -al
+  487  sudo chmod 700 CloudComputingAssignment3.pem 
+  488  sudo chmod u=r CloudComputingAssignment3.pem 
+  489  sudo chmod700 CloudComputingAssignment3.pem 
+  490  git update-index --chmod=+x CloudComputingAssignment3.pem
+  491  sudo apt-get install python3
+  492  ssh -i ~/.ssh/CloudComputingAssignment3.pem 18.188.163.75
+  493  git status
+  494  git add .
+  495  git commit -m "Finished the FXML Challenge"
+  496  git push
+  497  git add .
+  498  git commit -m "Locks"
+  499  git push
+  500  ls
+  501  git init
+  502  touch MyFirstFile.txt
+  503  echo "Some random text" > MyFirstFile.txt 
+  504  cat MyFirstFile.txt 
+  505  git stash -A
+  506  git add -A
+  507  git stash -list
+  508  git commit -m "Add my first file"
+  509  l,s
+  510  ls
+  511  cat MyFirstFile.txt 
+  512  echo "I have made some changes" > MyFirstFile.txt 
+  513  cat MyFirstFile.txt 
+  514  git add -A
+  515  git commit -m "made changes to the file"
+  516  ls
+  517  echo "Some info about my lovely cat" > MySecondFile.txt
+  518  cat MySecondFile.txt 
+  519  git status
+  520  git commit -a -m "Create a second file"
+  521  git add -A
+  522  git commit -a -m "Create a second file"
+  523  ls
+  524  ls
+  525  git branch develop
+  526  git checkout develop
+  527  touch SongsILike.txt
+  528  echo "Imagine Dragons Radioactive"
+  529  echo "Imagine Dragons Radioactive" > SongsILike.txt
+  530  ls
+  531  rm MySecondFile.txt 
+  532  ls
+  533  git add -A
+  534  git commit -m "Add a file about songs that are cool"
+  535  ls
+  536  git checkout main
+  537  git branch
+  538  git checkout master
+  539  ls
+  540  git merge develop
+  541  git status
+  542  cat MyFirstFile.txt 
+  543  git add -A
+  544  git commit -m "Reword the cat file"
+  545  git add -A
+  546  git commit -m "Also modify the cat file"
+  547  git checkout master
+  548  cat MyFirstFile.txt 
+  549  git status
+  550  git add -A
+  551  git commit -m "Reword the cat file"
+  552  git status
+  553  git checkout develop
+  554  ls
+  555  git status
+  556  git status
+  557  git status
+  558  git add .
+  559  git commit -m "Also modify the file"
+  560  git checkout master
+  561  git merge develop
+  562  git add -A
+  563  git commit -m "Fix the problems from the merge"
+  564  ls
+  565  cat MyFirstFile.txt 
+  566  git remote add origin https://github.com/mrixon95/git_practice.git
+  567  git branch -M main
+  568  git push -u origin main
+  569  git push origin -all
+  570  git push origin --all
+  571  ls
+  572  rm MyFirstFile.txt 
+  573  rm SongsILike.txt 
+  574  ls
+  575  git log
+  576  touch NewFile.txt
+  577  git add -A
+  578  git commit -m "Adding first file"
+  579  git log
+  580  git log
+  581  ls
+  582  history
+  583  history > commands.txt
